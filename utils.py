@@ -17,3 +17,12 @@ def seed_everything(seed = 42):
     
 
 
+class GenerateCallback:
+    def  __init__(self, batch_size = 8, vis_steps = 8, num_steps = 256, every_n_epochs = 5):
+        pass
+    
+    def on_epoch_end(self,    trainer):
+        pass 
+
+    def generate_imgs(self):
+        pass 
